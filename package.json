@@ -1,0 +1,20 @@
+{
+  "name": "checkr-examples",
+  "packageManager": "yarn@4.3.1",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "prepare": "yarn clean && yarn build",
+    "start": "yarn clean && yarn build && node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@jacksierkstra/checkr": "^0.0.12"
+  }
+}

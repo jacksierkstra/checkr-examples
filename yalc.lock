@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@jacksierkstra/checkr": {
+      "signature": "93b702cf2ec1a90582b745b1b047304f",
+      "file": true,
+      "replaced": "^0.0.12-WIP"
+    }
+  }
+}
