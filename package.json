@@ -7,7 +7,7 @@
     "clean": "rimraf dist",
     "build": "tsc",
     "prepare": "yarn clean && yarn build",
-    "start": "yarn clean && yarn build && node dist/main.js"
+    "start": "yarn clean && yarn build && node dist/main.js && node dist/books.js"
   },
   "devDependencies": {
     "@types/node": "^22.13.9",
@@ -15,6 +15,7 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "@jacksierkstra/checkr": "^0.0.12"
+    "@jacksierkstra/checkr": "^0.0.14",
+    "glob": "^11.0.1"
   }
 }
