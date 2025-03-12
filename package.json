@@ -2,16 +2,12 @@
   "name": "checkr-examples",
   "packageManager": "yarn@4.3.1",
   "version": "0.0.1",
-  "type": "module",
   "scripts": {
-    "clean": "rimraf dist",
-    "build": "tsc",
-    "prepare": "yarn clean && yarn build",
-    "start": "yarn clean && yarn build && node dist/main.js && node dist/books.js"
+    "start": "tsx src/main.ts"
   },
   "devDependencies": {
     "@types/node": "^22.13.9",
-    "rimraf": "^6.0.1",
+    "tsx": "^4.19.3",
     "typescript": "^5.8.2"
   },
   "dependencies": {
