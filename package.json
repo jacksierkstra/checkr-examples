@@ -6,12 +6,12 @@
     "start": "tsx src/main.ts"
   },
   "devDependencies": {
-    "@types/node": "^22.13.9",
+    "@types/node": "^22.13.10",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "@jacksierkstra/checkr": "^0.0.14",
+    "@jacksierkstra/checkr": "^0.0.15",
     "glob": "^11.0.1"
   }
 }

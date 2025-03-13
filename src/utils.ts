@@ -1,7 +1,6 @@
 import { ValidationResult } from "@jacksierkstra/checkr";
 
 export const logResult = (name: string, result: ValidationResult) => {
-
     console.log(`|---------------------------------------------`);
     console.log(`| Ran example with name: ${name}              `);
     console.log(`|---------------------------------------------`);

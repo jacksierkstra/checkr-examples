@@ -203,12 +203,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jacksierkstra/checkr@npm:^0.0.14":
-  version: 0.0.14
-  resolution: "@jacksierkstra/checkr@npm:0.0.14"
+"@jacksierkstra/checkr@npm:^0.0.15":
+  version: 0.0.15
+  resolution: "@jacksierkstra/checkr@npm:0.0.15"
   dependencies:
     xmldom: "npm:^0.6.0"
-  checksum: 10c0/a16cd00b796474514daad5685dde8ea76d1a9296b4b400b10641429aecd02d9492bcdce216030592ff237d843b23801cf9ba970baf9e2d889f2cede3d596906d
+  checksum: 10c0/c50846f242b8a8511aba77aa10a8a09b78fb3b95e39485d97e205b120be7ca4ebddd1da08d952df7d27c8da230f574b5114cf3191466b34976a21982b0ac4f9a
   languageName: node
   linkType: hard
 
@@ -241,12 +241,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.13.9":
-  version: 22.13.9
-  resolution: "@types/node@npm:22.13.9"
+"@types/node@npm:^22.13.10":
+  version: 22.13.10
+  resolution: "@types/node@npm:22.13.10"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/eb6acd04169a076631dcaab712128d492cd17a1b3f10daae4a377f3d439c860c3cd3e32f4ef221671f56183b976ac7c4089f4193457314a88675ead4663438a4
+  checksum: 10c0/a3865f9503d6f718002374f7b87efaadfae62faa499c1a33b12c527cfb9fd86f733e1a1b026b80c5a0e4a965701174bc3305595a7d36078aa1abcf09daa5dee9
   languageName: node
   linkType: hard
 
@@ -334,8 +334,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "checkr-examples@workspace:."
   dependencies:
-    "@jacksierkstra/checkr": "npm:^0.0.14"
-    "@types/node": "npm:^22.13.9"
+    "@jacksierkstra/checkr": "npm:^0.0.15"
+    "@types/node": "npm:^22.13.10"
     glob: "npm:^11.0.1"
     tsx: "npm:^4.19.3"
     typescript: "npm:^5.8.2"
